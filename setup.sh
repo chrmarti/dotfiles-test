@@ -1,3 +1,7 @@
 #!/bin/sh
 
-echo dotfiles-test >>~/dotfiles-test.txt
+for i in `seq 3`; do echo dotfiles install $i; sleep 1; done
+
+1
+
+2
